@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\ApplicationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post("/login", [LoginController::class,'login'])->name("loginUser");
+Route::get('/login', [ApplicationController::class,'__invoke'])->where('any', '.*')->name("login");
+Route::post("/logout", [LoginController::class,'logout'])->name("logoutUser");
+Route::middleware('auth:sanctum')->get('/{any}', [ApplicationController::class,'__invoke'])->where('any', '.*');
