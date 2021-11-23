@@ -53,6 +53,7 @@ export default {
         .then(response => {
           // If there's user data in response
             //console.log(JSON.stringify(response, null, 2));
+            console.log(response);
           if (response.data && response.data.id && response.data.email && response.data.email == payload.email) {
             // Navigate User to homepage
             //router.push(router.currentRoute.query.to || '/home')

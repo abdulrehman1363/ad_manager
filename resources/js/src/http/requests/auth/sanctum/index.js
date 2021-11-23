@@ -52,6 +52,7 @@ export default {
     }).then(response => {
 
       if (response.status == 200 || response.status == 204 || response.status == 302) {
+          //console.log('response',response);
         return axios.get(URL_CONFIG.API_URL + API_ENDPOINTS.GetUser);
       } else {
         return {message: 'Wrong Email or Password'};

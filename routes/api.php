@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['prefix' => 'v1' , 'middleware' =>['throttle:240,1','auth:sanctum']],function (){
+    Route::get('/user', function (Request $request) {
+        $user= $request->user();
+        return $user;
+    });
 });

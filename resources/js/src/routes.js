@@ -2,8 +2,26 @@ import { createRouter, createWebHistory } from 'vue-router'
 import {URL_CONFIG} from './common/config'
 import Login from './pages/auth/Login'
 import FullPage from './layouts/FullPage'
+import Main from './layouts/Main'
+import Home from './pages/Home'
+
 
 const routes = [
+    {
+        path: '',
+        component: Main,
+        meta: {
+            requiresAuth: true
+        },
+      children: [
+          {
+              path: '/home',
+              name: 'Home',
+              component: Home
+
+          }
+      ]
+    },
     {
         path: '',
         component: FullPage,

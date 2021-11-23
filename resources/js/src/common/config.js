@@ -22,5 +22,5 @@ export const APP_ENDPOINTS = {
 };
 
 export const API_ENDPOINTS = {
-
+    GetUser: "/user"
 };

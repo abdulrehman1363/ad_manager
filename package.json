@@ -26,6 +26,9 @@
     },
     "dependencies": {
         "vue-router": "^4.0.12",
-        "vuex": "^4.0.2"
+        "vuex": "^4.0.2",
+        "vee-validate": "^4.2.4",
+        "yup": "^1.0.0-alpha.2",
+        "@meforma/vue-toaster": "^1.2.2"
     }
 }

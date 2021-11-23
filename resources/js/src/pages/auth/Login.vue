@@ -42,53 +42,7 @@
                         </div>
                         <div class="main-content-inner">
                             <div class="row">
-                                <div class="col-xl-5">
-                                    <div class="content-login db-card">
-                                        <div class="content-login-head">
-                                            <h1>Log in on AdManager</h1>
-                                        </div>
-                                        <div class="login-options">
-                                            <div class="login-option-single fb">
-                                                <a href=""><img src="images/fb-icon.svg" alt="facebook icon">Continue with FaceBook</a>
-                                            </div>
-                                            <div class="login-option-single coin-x">
-                                                <a href=""><img src="images/coin-x-logo-small.svg" alt="coin-x icon">Continue with CoinX</a>
-                                            </div>
-                                            <div class="login-option-single gmail">
-                                                <a href=""><img src="images/mail-icon.svg" alt="gmail icon">Continue with E-mail</a>
-                                            </div>
-                                        </div>
-                                        <div class="login-separator">
-                                            <hr>
-                                            <span>OR</span>
-                                        </div>
-                                        <div class="login-form-wrap">
-                                            <form class="row needs-validation" novalidate>
-                                                <div class="col-12">
-                                                    <input type="email" class="form-control" placeholder="Email Address" autocomplete="email" required>
-                                                </div>
-                                                <div class="col-12">
-                                                    <input type="password" class="form-control" placeholder="Password" autocomplete="new-password" required>
-                                                </div>
-                                                <div class="login-wrong-password">
-                                                    <a href="">Wrong password</a>
-                                                </div>
-                                                <div class="col-12 login-btn-wrap">
-                                                    <button type="submit" class="">Login</button>
-                                                </div>
-                                                <div class="login-forgot-password">
-                                                    <a href="">Forgot password?</a>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="login-separator two">
-                                            <hr>
-                                        </div>
-                                        <div class="create-account-btn">
-                                            <a href="">Create an account</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <LoginJWT></LoginJWT>
                                 <div class="col-xl-7">
                                     <div class="row">
                                         <div class="col-lg-12">
