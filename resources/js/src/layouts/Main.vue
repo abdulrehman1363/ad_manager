@@ -3,6 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <SideBar></SideBar>
+                <router-view />
             </div>
         </div>
     </section>

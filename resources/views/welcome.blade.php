@@ -26,12 +26,14 @@
     <!-- Fonts Css -->
     <link href="{{asset('css/fonts.css')}}" rel="stylesheet">
 
+
     <!-- FontAwesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom Css -->
+
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link href="{{asset('css/form.css')}}" rel="stylesheet">
 
 </head>
 <body>
@@ -48,6 +50,7 @@
 
 <!-- Custom JS -->
 <script src="{{ URL::asset('js/custom.js') }}"></script>
+<script src="{{ URL::asset('js/multistepform.js') }}"></script>
 
 
 </body>

@@ -4,6 +4,7 @@ import Login from './pages/auth/Login'
 import FullPage from './layouts/FullPage'
 import Main from './layouts/Main'
 import Home from './pages/Home'
+import CreateCampaign from './pages/compaign/CreateCampaign'
 
 
 const routes = [
@@ -19,6 +20,11 @@ const routes = [
               name: 'Home',
               component: Home
 
+          },
+          {
+              path: 'create-campaign',
+              name: 'CreateCampaign',
+              component : CreateCampaign
           }
       ]
     },
