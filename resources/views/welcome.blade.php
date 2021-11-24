@@ -28,7 +28,7 @@
 
 
     <!-- FontAwesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
 
     <!-- Custom Css -->
 
@@ -43,14 +43,14 @@
 
 <script src="{{ URL::asset('js/app.js') }}"></script>
 
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
+<!--<script src="{{URL::asset('js/jquery-3.4.1.js')}} "></script>
+<script src="{{URL::asset('js/jquery.easing.min.js')}}"></script>-->
 <!-- Bootstrap JS -->
 <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 
 <!-- Custom JS -->
-<script src="{{ URL::asset('js/custom.js') }}"></script>
-<script src="{{ URL::asset('js/multistepform.js') }}"></script>
+<!--<script src="{{ URL::asset('js/custom.js') }}"></script>
+<script src="{{ URL::asset('js/multistepform.js') }}"></script>-->
 
 
 </body>

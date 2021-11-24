@@ -13,6 +13,24 @@
                 <div class="col-xl-12">
                     <div class="campaign-intro-wrap card">
                         <Step1></Step1>
+                        <div class="campaign-intro-video card">
+                            <div class="campaign-intro-video-container">
+                                <div class="campaign-intro-video-container-text">
+                                    <span>Your Video</span>
+                                    <p>From 5 sec till max 30 secs</p>
+                                </div>
+                            </div>
+                            <div class="campaign-intro-video-logo">
+                                <span>Your <br> logo</span>
+                            </div>
+                            <div class="campaign-intro-video-text">
+                                <h3>Name of your product</h3>
+                                <p>Description of your product that can have max 2 lines</p>
+                                <div class="campaign-intro-video-btn">
+                                    <a href="">Go to App/Website</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
